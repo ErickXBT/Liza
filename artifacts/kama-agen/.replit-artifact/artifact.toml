@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "KAMA AGEN"
+version = "1.0.0"
+id = "artifacts/kama-agen"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20657
+
+[services.development]
+run = "pnpm --filter @workspace/kama-agen run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kama-agen", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kama-agen/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20657"
+BASE_PATH = "/"
