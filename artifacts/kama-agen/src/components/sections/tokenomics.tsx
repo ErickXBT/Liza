@@ -17,7 +17,6 @@ export function Tokenomics() {
           <h2 className="text-3xl sm:text-5xl font-display font-bold text-white uppercase">
             Token<span className="text-primary">omics</span>
           </h2>
-          <p className="font-mono text-muted-foreground mt-4">Total Supply: 1,000,000,000 $KAMA</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">

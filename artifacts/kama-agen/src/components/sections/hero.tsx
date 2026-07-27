@@ -58,7 +58,7 @@ export function Hero() {
             <span className="font-mono text-xs text-primary uppercase tracking-widest">System Online // v2.4.0</span>
           </div>
           
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-display font-black leading-none text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.3)]">
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-none text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.3)]" style={{ fontFamily: "'Rajdhani', sans-serif", letterSpacing: '0.08em' }}>
             <span className="block glitch-effect" data-text="KAMA">KAMA</span>
             <span className="block text-primary">OS</span>
           </h1>
