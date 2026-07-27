@@ -39,10 +39,10 @@ export function VideoShowcase() {
         >
           <div className="inline-flex items-center gap-2 border border-primary/30 bg-primary/5 px-3 py-1 mb-6">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="font-mono text-xs text-primary uppercase tracking-widest">Cinematic Sequence // KAMA_VID_01</span>
+            <span className="font-mono text-xs text-primary uppercase tracking-widest">Cinematic Sequence // LIZA_VID_01</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-display font-bold text-white uppercase mb-4">
-            Meet <span className="text-primary">KAMA</span>
+            Meet <span className="text-primary">LIZA</span>
           </h2>
           <p className="font-mono text-muted-foreground max-w-xl mx-auto text-sm">
             The autonomous AI agent that never sleeps, never hesitates, never loses focus.
@@ -71,7 +71,7 @@ export function VideoShowcase() {
               <div className="w-2.5 h-2.5 rounded-full bg-white/10 border border-white/20" />
               <div className="w-2.5 h-2.5 rounded-full bg-primary/60 border border-primary" />
             </div>
-            <span className="font-mono text-xs text-primary/70 uppercase tracking-widest">kama_agen_cinematic_v1.mp4</span>
+            <span className="font-mono text-xs text-primary/70 uppercase tracking-widest">liza_agen_cinematic_v1.mp4</span>
             <div className="ml-auto flex items-center gap-1.5">
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               <span className="font-mono text-[10px] text-primary uppercase">Live</span>
@@ -127,7 +127,7 @@ export function VideoShowcase() {
               <button onClick={toggleMute} className="text-primary hover:text-white transition-colors">
                 {muted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
               </button>
-              <span className="font-mono text-[10px] text-primary/70 uppercase">KAMA // 8s</span>
+              <span className="font-mono text-[10px] text-primary/70 uppercase">LIZA // 8s</span>
             </div>
           </div>
         </motion.div>

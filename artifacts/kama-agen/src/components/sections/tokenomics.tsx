@@ -28,7 +28,7 @@ export function Tokenomics() {
           >
             {/* Center decorative element */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full border border-primary/50 flex items-center justify-center z-10 bg-black shadow-[0_0_20px_rgba(0,255,65,0.2)]">
-              <span className="font-mono font-bold text-primary">$KAMA</span>
+              <span className="font-mono font-bold text-primary">$LIZA</span>
             </div>
             
             <ResponsiveContainer width="100%" height="100%">

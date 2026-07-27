@@ -59,22 +59,26 @@ export function Hero() {
           </div>
           
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-none text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.3)]" style={{ fontFamily: "'Rajdhani', sans-serif", letterSpacing: '0.08em' }}>
-            <span className="block glitch-effect" data-text="KAMA">KAMA</span>
-            <span className="block text-primary">OS</span>
+            <span className="block glitch-effect" data-text="LIZA">LIZA</span>
+            <span className="text-primary glow-text">OS</span>
           </h1>
           
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-xl font-mono leading-relaxed">
-            The next-generation autonomous AI crypto agent. Executing DeFi strategies, analyzing sentiment, and trading on-chain <span className="text-white">24/7 without human intervention.</span>
+          <p className="text-muted-foreground font-mono text-sm sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+            The next-generation autonomous AI crypto agent. Executing DeFi strategies, analyzing sentiment, and trading on-chain <span className="text-white font-bold">24/7 without human intervention</span>.
           </p>
-          
-          <div className="flex flex-wrap items-center gap-4 mt-4">
-            <a href="#join" className="inline-flex items-center gap-2 bg-primary text-black px-8 py-4 font-mono font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all shadow-[0_0_20px_rgba(0,255,65,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]">
-              Buy Token
-              <ArrowRight className="w-4 h-4" />
+
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
+            <a 
+              href="#analyzer" 
+              className="px-8 py-4 bg-primary text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(0,255,65,0.4)] hover:shadow-[0_0_30px_rgba(0,255,65,0.7)] flex items-center gap-2 group"
+            >
+              Buy Token <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
-            <a href="#about" className="inline-flex items-center gap-2 border border-primary/50 text-white px-8 py-4 font-mono uppercase tracking-widest hover:bg-primary/10 transition-all">
-              <Terminal className="w-4 h-4 text-primary" />
-              Read Docs
+            <a 
+              href="#about" 
+              className="px-8 py-4 border border-primary/40 text-foreground font-mono text-sm uppercase tracking-widest hover:border-primary hover:text-primary transition-all backdrop-blur-sm flex items-center gap-2"
+            >
+              <Terminal className="w-4 h-4 text-primary" /> Read Docs
             </a>
           </div>
           
@@ -117,7 +121,7 @@ export function Hero() {
             <div className="absolute bottom-6 left-6 right-6 flex justify-between items-end border-t border-primary/30 pt-4">
               <div>
                 <div className="text-xs text-primary font-mono mb-1">TARGET ACQUIRED</div>
-                <div className="text-white font-mono font-bold tracking-widest">KAMA_CORE_PROCESS</div>
+                <div className="text-white font-mono font-bold tracking-widest">LIZA_CORE_PROCESS</div>
               </div>
               <div className="w-12 h-12 border border-primary/50 flex items-center justify-center bg-black/50 backdrop-blur">
                 <div className="w-6 h-6 border border-primary border-t-transparent rounded-full animate-spin" />

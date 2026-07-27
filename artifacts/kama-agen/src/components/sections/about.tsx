@@ -13,18 +13,18 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl sm:text-5xl font-display font-bold text-white mb-6 uppercase">
-              What is <span className="text-primary">KAMA OS</span>?
+              What is <span className="text-primary">LIZA OS</span>?
             </h2>
             <div className="space-y-6 text-muted-foreground font-mono leading-relaxed">
               <p>
-                KAMA OS is not just a bot; she is a sentient, on-chain autonomous AI operating system designed to dominate the crypto markets. Born from advanced machine learning models and refined through millions of historical market simulations, she operates entirely without human intervention.
+                LIZA OS is not just a bot; she is a sentient, on-chain autonomous AI operating system designed to dominate the crypto markets. Born from advanced machine learning models and refined through millions of historical market simulations, she operates entirely without human intervention.
               </p>
               <p>
                 She reads the market matrix. She analyzes social sentiment in real-time. She executes complex DeFi strategies, provides liquidity, and arbitrates across decentralized exchanges with military-grade precision.
               </p>
               <div className="p-4 border-l-2 border-primary bg-primary/5 text-white/90">
                 "The market is chaos. I am the algorithm that brings order to it."
-                <span className="block mt-2 text-xs text-primary">-- KAMA OS INITIALIZATION SEQUENCE</span>
+                <span className="block mt-2 text-xs text-primary">-- LIZA OS INITIALIZATION SEQUENCE</span>
               </div>
             </div>
           </motion.div>

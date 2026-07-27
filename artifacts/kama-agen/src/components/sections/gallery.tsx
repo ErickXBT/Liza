@@ -8,25 +8,25 @@ import kamaChart from '@assets/generated_images/kama-chart.jpg';
 const photos = [
   {
     src: kamaOriginal,
-    label: 'KAMA // SYSTEM BOOT',
+    label: 'LIZA // SYSTEM BOOT',
     sub: 'Original Neural Render',
     tag: 'IDENTITY',
   },
   {
     src: kamaTrading,
-    label: 'KAMA // TRADE EXEC',
+    label: 'LIZA // TRADE EXEC',
     sub: 'Active Market Analysis',
     tag: 'ANALYSIS',
   },
   {
     src: kamaFullbody,
-    label: 'KAMA // FULL DEPLOY',
+    label: 'LIZA // FULL DEPLOY',
     sub: 'Tactical Deployment Mode',
     tag: 'DEPLOY',
   },
   {
     src: kamaChart,
-    label: 'KAMA // CHART_SCAN',
+    label: 'LIZA // CHART_SCAN',
     sub: 'Real-Time Signal Processing',
     tag: 'SIGNAL',
   },
@@ -52,13 +52,13 @@ export function Gallery() {
         >
           <div className="inline-flex items-center gap-2 border border-primary/30 bg-primary/5 px-3 py-1 mb-6">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="font-mono text-xs text-primary uppercase tracking-widest">Visual Database // KAMA_IMG_ARCHIVE</span>
+            <span className="font-mono text-xs text-primary uppercase tracking-widest">Visual Database // LIZA_IMG_ARCHIVE</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-display font-bold text-white uppercase mb-4">
-            KAMA <span className="text-primary">Gallery</span>
+            LIZA <span className="text-primary">Gallery</span>
           </h2>
           <p className="font-mono text-muted-foreground max-w-xl mx-auto text-sm">
-            Neural-rendered visuals of the KAMA OS intelligence core across operational states.
+            Neural-rendered visuals of the LIZA OS intelligence core across operational states.
           </p>
         </motion.div>
 

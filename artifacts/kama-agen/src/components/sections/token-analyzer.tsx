@@ -259,14 +259,12 @@ export function TokenAnalyzer() {
     setShowDropdown(false);
 
     const lines = [
-      `> Initializing KAMA OS Token Scanner v3.1...`,
-      `> Resolving "${coinName}" on CoinGecko registry...`,
-      `> Fetching real-time market data...`,
-      `> Analyzing liquidity depth across DEX pools...`,
-      `> Scanning supply distribution & whale wallets...`,
-      `> Running community sentiment analysis...`,
-      `> Computing AI risk score & volatility index...`,
-      `> Generating verdict...`,
+      `> Initializing LIZA OS Token Scanner v3.1...`,
+      `> Connecting to EVM & Solana RPC Nodes...`,
+      `> Fetching Smart Contract Bytecode & Liquidity Pool Data...`,
+      `> Running LIZA Neural Sentiment Analyzer...`,
+      `> Evaluating Holder Distribution & Ownership Risks...`,
+      `> Analysis Complete.`
     ];
 
     // Show logs line by line
@@ -346,7 +344,7 @@ export function TokenAnalyzer() {
         >
           <div className="inline-flex items-center gap-2 border border-primary/30 bg-primary/5 px-3 py-1 mb-6">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="font-mono text-xs text-primary uppercase tracking-widest">KAMA OS Project // AI Token Analyzer</span>
+            <span className="font-mono text-xs text-primary uppercase tracking-widest">LIZA OS Project // AI Token Analyzer</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-display font-bold text-white uppercase mb-4">
             AI Token <span className="text-primary">Analyzer</span>
@@ -588,7 +586,7 @@ export function TokenAnalyzer() {
                   <div className={`border-l-2 p-4 ${riskConfig[result.risk].border} ${riskConfig[result.risk].bg}`}>
                     <div className="flex items-center gap-2 mb-2">
                       {(() => { const Icon = riskConfig[result.risk].icon; return <Icon className={`w-4 h-4 ${riskConfig[result.risk].color}`} />; })()}
-                      <span className={`font-mono text-[10px] uppercase tracking-widest ${riskConfig[result.risk].color}`}>KAMA OS Verdict</span>
+                      <span className={`font-mono text-[10px] uppercase tracking-widest ${riskConfig[result.risk].color}`}>LIZA OS Verdict</span>
                     </div>
                     <p className="font-mono text-sm text-white/80 leading-relaxed">{result.verdict}</p>
                   </div>

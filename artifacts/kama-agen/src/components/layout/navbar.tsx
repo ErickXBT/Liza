@@ -30,7 +30,7 @@ export function Navbar() {
             <div className="absolute inset-0 bg-primary/20 blur-md group-hover:bg-primary/40 transition-colors opacity-0 group-hover:opacity-100" />
           </div>
           <span className="font-display font-bold text-xl tracking-widest text-white group-hover:text-primary transition-colors">
-            KAMA<span className="text-primary">OS</span>
+            LIZA<span className="text-primary">OS</span>
           </span>
         </Link>
         
