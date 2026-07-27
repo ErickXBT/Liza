@@ -7,7 +7,6 @@ import { Gallery } from '@/components/sections/gallery';
 import { TokenAnalyzer } from '@/components/sections/token-analyzer';
 import { Capabilities } from '@/components/sections/capabilities';
 import { HowItWorks } from '@/components/sections/how-it-works';
-import { Tokenomics } from '@/components/sections/tokenomics';
 import { Roadmap } from '@/components/sections/roadmap';
 import { Community } from '@/components/sections/community';
 import { Footer } from '@/components/sections/footer';
@@ -29,7 +28,6 @@ export default function Home() {
         <TokenAnalyzer />
         <Capabilities />
         <HowItWorks />
-        <Tokenomics />
         <Roadmap />
         <Community />
       </main>

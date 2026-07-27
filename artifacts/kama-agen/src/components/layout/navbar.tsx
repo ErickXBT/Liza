@@ -38,7 +38,6 @@ export function Navbar() {
           <a href="#about" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_About</a>
           <a href="#analyzer" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Analyzer</a>
           <a href="#capabilities" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Core</a>
-          <a href="#tokenomics" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Tokenomics</a>
           <a href="#roadmap" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Roadmap</a>
         </nav>
         
