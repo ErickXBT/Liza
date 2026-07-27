@@ -28,7 +28,7 @@ export function Community() {
             Join the <span className="text-primary">Network</span>
           </h2>
           <p className="font-mono text-muted-foreground mb-12 text-lg">
-            Initialize connection to the KAMA AGEN collective. Participate in the governance of the autonomous future.
+            Initialize connection to the KAMA OS collective. Participate in the governance of the autonomous future.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-12">

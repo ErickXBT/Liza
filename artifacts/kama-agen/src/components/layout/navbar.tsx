@@ -30,12 +30,13 @@ export function Navbar() {
             <div className="absolute inset-0 bg-primary/20 blur-md group-hover:bg-primary/40 transition-colors opacity-0 group-hover:opacity-100" />
           </div>
           <span className="font-display font-bold text-xl tracking-widest text-white group-hover:text-primary transition-colors">
-            KAMA<span className="text-primary">AGEN</span>
+            KAMA<span className="text-primary">OS</span>
           </span>
         </Link>
         
         <nav className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_About</a>
+          <a href="#analyzer" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Analyzer</a>
           <a href="#capabilities" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Core</a>
           <a href="#tokenomics" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Tokenomics</a>
           <a href="#roadmap" className="text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors font-mono">_Roadmap</a>

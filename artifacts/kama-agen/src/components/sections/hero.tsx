@@ -60,7 +60,7 @@ export function Hero() {
           
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-display font-black leading-none text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.3)]">
             <span className="block glitch-effect" data-text="KAMA">KAMA</span>
-            <span className="block text-primary">AGEN</span>
+            <span className="block text-primary">OS</span>
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground max-w-xl font-mono leading-relaxed">
@@ -107,7 +107,7 @@ export function Hero() {
           <div className="relative z-10 w-full aspect-[3/4] bg-black border border-primary/20 overflow-hidden shadow-[0_0_50px_rgba(0,255,65,0.15)] group">
             <img 
               src={mascotImg} 
-              alt="KAMA AGEN AI Mascot" 
+              alt="KAMA OS AI Mascot" 
               className="w-full h-full object-cover object-center opacity-90 group-hover:scale-105 transition-transform duration-700 mix-blend-lighten"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />

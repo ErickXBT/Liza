@@ -16,7 +16,7 @@ export function HowItWorks() {
             Execution <span className="text-primary">Pipeline</span>
           </h2>
           <p className="font-mono text-muted-foreground max-w-2xl mx-auto">
-            The autonomous lifecycle of a KAMA AGEN operation.
+            The autonomous lifecycle of a KAMA OS operation.
           </p>
         </div>
 

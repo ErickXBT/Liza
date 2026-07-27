@@ -24,7 +24,7 @@ const phases = [
   {
     phase: "Phase 5",
     title: "Singularity (2026+)",
-    items: ["Full on-chain autonomous DAO", "AI agent marketplace", "KAMA SDK for third-party integrations", "Global AI crypto ecosystem"]
+    items: ["Full on-chain autonomous DAO", "AI agent marketplace", "KAMA OS SDK for third-party integrations", "Global AI crypto ecosystem"]
   }
 ];
 

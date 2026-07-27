@@ -2,6 +2,9 @@ import { Navbar } from '@/components/layout/navbar';
 import { Hero } from '@/components/sections/hero';
 import { Stats } from '@/components/sections/stats';
 import { About } from '@/components/sections/about';
+import { VideoShowcase } from '@/components/sections/video-showcase';
+import { Gallery } from '@/components/sections/gallery';
+import { TokenAnalyzer } from '@/components/sections/token-analyzer';
 import { Capabilities } from '@/components/sections/capabilities';
 import { HowItWorks } from '@/components/sections/how-it-works';
 import { Tokenomics } from '@/components/sections/tokenomics';
@@ -21,6 +24,9 @@ export default function Home() {
         <Hero />
         <Stats />
         <About />
+        <VideoShowcase />
+        <Gallery />
+        <TokenAnalyzer />
         <Capabilities />
         <HowItWorks />
         <Tokenomics />
