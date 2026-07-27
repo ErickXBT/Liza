@@ -58,7 +58,7 @@ export function Hero() {
             <span className="font-mono text-xs text-primary uppercase tracking-widest">System Online // v2.4.0</span>
           </div>
           
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-none text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.3)] flex items-center gap-3" style={{ fontFamily: "'Rajdhani', sans-serif", letterSpacing: '0.08em' }}>
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-none text-white drop-shadow-[0_0_10px_rgba(204,255,0,0.3)] flex items-center gap-3" style={{ fontFamily: "'Rajdhani', sans-serif", letterSpacing: '0.08em' }}>
             <span className="glitch-effect" data-text="LIZA">LIZA</span>
             <span className="text-primary glow-text">OS</span>
           </h1>
@@ -70,7 +70,7 @@ export function Hero() {
           <div className="flex flex-wrap items-center justify-start gap-4">
             <a 
               href="#analyzer" 
-              className="px-8 py-4 bg-primary text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(0,255,65,0.4)] hover:shadow-[0_0_30px_rgba(0,255,65,0.7)] flex items-center gap-2 group"
+              className="px-8 py-4 bg-primary text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(204,255,0,0.4)] hover:shadow-[0_0_30px_rgba(204,255,0,0.7)] flex items-center gap-2 group"
             >
               Buy Token <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>

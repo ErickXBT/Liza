@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 const data = [
-  { name: 'AI Agent Rewards', value: 40, color: '#00ff41' },
-  { name: 'Liquidity Pool', value: 25, color: '#00cc33' },
-  { name: 'Development Fund', value: 15, color: '#009926' },
-  { name: 'Community & Airdrop', value: 12, color: '#006619' },
-  { name: 'Team & Advisors', value: 8, color: '#00330d' },
+  { name: 'AI Agent Rewards', value: 40, color: '#CCFF00' },
+  { name: 'Liquidity Pool', value: 30, color: '#99CC00' },
+  { name: 'Development', value: 15, color: '#669900' },
+  { name: 'Community Treasury', value: 10, color: '#336600' },
+  { name: 'Team (Vested)', value: 5, color: '#1A3300' },
 ];
 
 export function Tokenomics() {

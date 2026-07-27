@@ -192,13 +192,13 @@ function buildResult(d: CoinData): AnalysisResult {
 
 // ── Constants ────────────────────────────────────────────────────────────
 const riskConfig = {
-  LOW:      { color: 'text-[#00ff41]', border: 'border-[#00ff41]', bg: 'bg-[#00ff41]/10',  icon: Shield },
+  LOW:      { color: 'text-[#CCFF00]', border: 'border-[#CCFF00]', bg: 'bg-[#CCFF00]/10',  icon: Shield },
   MEDIUM:   { color: 'text-yellow-400', border: 'border-yellow-400', bg: 'bg-yellow-400/10', icon: AlertTriangle },
   HIGH:     { color: 'text-orange-500', border: 'border-orange-500', bg: 'bg-orange-500/10', icon: AlertTriangle },
   CRITICAL: { color: 'text-red-500',    border: 'border-red-500',    bg: 'bg-red-500/10',    icon: AlertTriangle },
 };
-const statusColor = { good: 'text-[#00ff41]', warn: 'text-yellow-400', bad: 'text-red-500' };
-const statusDot   = { good: 'bg-[#00ff41]',   warn: 'bg-yellow-400',   bad: 'bg-red-500'   };
+const statusColor = { good: 'text-[#CCFF00]', warn: 'text-yellow-400', bad: 'text-red-500' };
+const statusDot   = { good: 'bg-[#CCFF00]',   warn: 'bg-yellow-400',   bad: 'bg-red-500'   };
 
 const TRENDING_DEFAULTS = [
   { id: 'bitcoin',  name: 'Bitcoin',   symbol: 'BTC'  },
@@ -321,7 +321,7 @@ export function TokenAnalyzer() {
     return (
       <div className="flex items-center gap-1">
         <span className="font-mono text-[10px] text-muted-foreground">{label}</span>
-        <span className={`font-mono text-xs font-bold flex items-center gap-0.5 ${pos ? 'text-[#00ff41]' : 'text-red-500'}`}>
+        <span className={`font-mono text-xs font-bold flex items-center gap-0.5 ${pos ? 'text-[#CCFF00]' : 'text-red-500'}`}>
           {pos ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
           {Math.abs(val).toFixed(2)}%
         </span>
