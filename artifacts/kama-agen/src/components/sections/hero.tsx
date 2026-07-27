@@ -63,11 +63,11 @@ export function Hero() {
             <span className="text-primary glow-text">OS</span>
           </h1>
           
-          <p className="text-muted-foreground font-mono text-sm sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-muted-foreground font-mono text-sm sm:text-lg max-w-2xl text-left leading-relaxed">
             The next-generation autonomous AI crypto agent. Executing DeFi strategies, analyzing sentiment, and trading on-chain <span className="text-white font-bold">24/7 without human intervention</span>.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
+          <div className="flex flex-wrap items-center justify-start gap-4">
             <a 
               href="#analyzer" 
               className="px-8 py-4 bg-primary text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(0,255,65,0.4)] hover:shadow-[0_0_30px_rgba(0,255,65,0.7)] flex items-center gap-2 group"
