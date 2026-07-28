@@ -424,7 +424,7 @@ const sections = [
 
 export default function Docs() {
   const [activeId, setActiveId] = useState(sections[0].id);
-  const active = sections.find(s => s.id === activeId)!;
+  const active = sections.find(s => s.id === activeId) ?? sections[0];
 
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
