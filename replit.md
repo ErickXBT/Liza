@@ -1,15 +1,16 @@
-# [Project name]
+# KAMA AGEN
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A landing page for the KAMA AGEN token — includes hero, stats, about, video showcase, gallery, token analyzer, capabilities, roadmap, and community sections.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- **Frontend** workflow: `KAMA AGEN (frontend)` — Vite dev server on port 5173 (`PORT=5173 BASE_PATH=/ pnpm --filter @workspace/kama-agen run dev`)
+- **API** workflow: `API Server` — Express 5 API on port 5000 (`PORT=5000 pnpm --filter @workspace/api-server run dev`)
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 - `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
 - `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `DATABASE_URL` is runtime-managed by Replit — no manual setup needed
 
 ## Stack
 
