@@ -75,7 +75,7 @@ export function Hero() {
               Buy Token <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
-              href="#about" 
+              href="/docs" 
               className="px-8 py-4 border border-primary/40 text-foreground font-mono text-sm uppercase tracking-widest hover:border-primary hover:text-primary transition-all backdrop-blur-sm flex items-center gap-2"
             >
               <Terminal className="w-4 h-4 text-primary" /> Read Docs
