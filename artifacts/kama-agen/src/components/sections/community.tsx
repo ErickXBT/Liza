@@ -5,9 +5,10 @@ import { SiDiscord, SiTelegram, SiX } from 'react-icons/si';
 
 export function Community() {
   const { toast } = useToast();
-  const contractAddress = "0xKAMA...AGEN...AI...NODE"; // Dummy address
+  const contractAddress = null; // Not launched yet
 
   const handleCopy = () => {
+    if (!contractAddress) return;
     navigator.clipboard.writeText(contractAddress);
     toast({
       title: "ADDRESS COPIED",
@@ -45,12 +46,13 @@ export function Community() {
           <div className="max-w-xl mx-auto">
             <div className="text-left text-xs font-mono text-primary mb-2 uppercase">Official Contract Address</div>
             <div className="flex items-center">
-              <div className="flex-1 bg-[#0a0a0a] border border-r-0 border-white/20 p-4 font-mono text-sm sm:text-base text-white/80 overflow-hidden text-ellipsis whitespace-nowrap">
-                {contractAddress}
+              <div className="flex-1 bg-[#0a0a0a] border border-r-0 border-white/20 p-4 font-mono text-sm sm:text-base overflow-hidden text-ellipsis whitespace-nowrap text-white/30 italic">
+                TBA — contract not yet deployed
               </div>
-              <button 
+              <button
                 onClick={handleCopy}
-                className="bg-primary text-black px-6 py-4 border border-primary hover:bg-white hover:border-white transition-colors"
+                disabled={!contractAddress}
+                className="bg-primary/30 text-black/40 px-6 py-4 border border-primary/30 cursor-not-allowed"
                 aria-label="Copy contract address"
               >
                 <Copy className="w-5 h-5" />
