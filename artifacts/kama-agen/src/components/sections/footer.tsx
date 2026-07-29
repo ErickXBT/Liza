@@ -16,9 +16,6 @@ export function Footer() {
           
           <div className="flex gap-6 font-mono text-sm text-muted-foreground">
             <a href="/docs" className="hover:text-primary transition-colors">Docs</a>
-            <a href="#" className="hover:text-primary transition-colors">Audit</a>
-            <a href="#" className="hover:text-primary transition-colors">Github</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms</a>
           </div>
         </div>
         

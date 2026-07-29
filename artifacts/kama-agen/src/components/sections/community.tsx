@@ -40,10 +40,6 @@ export function Community() {
               <SiX className="w-6 h-6 group-hover:text-primary transition-colors" />
               Twitter / X
             </a>
-            <a href="#" className="flex items-center gap-3 bg-white/5 border border-white/20 hover:border-primary hover:bg-primary/10 text-white px-8 py-4 font-display uppercase tracking-widest transition-all group">
-              <SiDiscord className="w-6 h-6 group-hover:text-primary transition-colors" />
-              Discord
-            </a>
           </div>
           
           <div className="max-w-xl mx-auto">
