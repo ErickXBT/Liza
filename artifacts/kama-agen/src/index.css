@@ -193,6 +193,16 @@
   animation: glitch-anim 2.5s infinite linear alternate-reverse;
 }
 
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+}
+
 @keyframes glitch-anim {
   0% { clip: rect(10px, 9999px, 81px, 0); }
   20% { clip: rect(69px, 9999px, 15px, 0); }
