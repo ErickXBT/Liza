@@ -59,8 +59,8 @@ export function Hero() {
           </h1>
 
           <p className="text-muted-foreground font-mono text-sm sm:text-lg max-w-2xl text-left leading-relaxed">
-            AI agent yang membaca pasar, menganalisis risiko token, dan mengeksekusi strategi DeFi secara otomatis —{' '}
-            <span className="text-white font-bold">tanpa emosi, tanpa henti, tanpa batas</span>.
+            An AI agent that reads the market, analyzes token risk, and executes DeFi strategies automatically —{' '}
+            <span className="text-white font-bold">no emotions, no downtime, no limits</span>.
           </p>
 
           <div className="flex flex-wrap items-center justify-start gap-4">
